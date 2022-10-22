@@ -19,7 +19,7 @@ def perform_query():
         result = build_query(
             cmd=query['cmd'],
             param=query['value'],
-            data=result )
+            data=result)
 
     return jsonify(result)
 
